@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to right, #ff0000, #f57b00);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    /* transition: all 1s; */
+}
+
+@font-face {
+    font-family: wow;
+    src: url(wow.ttf);
+}
+
+span{
+    font-size: 80px;
+    text-align: center;
+    font-family: wow;
+    text-transform: uppercase;
+}
+
+div{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.box{
+    height: 20vh;
+    width: 30vw;
+    background-color: black;
+    border: 8px solid white;
+}
+
+@media only screen and (max-width: 950px){
+    span{
+        font-size: 30px;
+    }
+}
